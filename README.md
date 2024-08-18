@@ -16,6 +16,16 @@ caution :
 
 Unfortunately, the data source for this dataset does not distinguish between traffic values of zero and missing values. A missing value may mean the traffic was zero or that the data is not available for that day.
 
+Why MAPE : 
+
+MAPE importance :
+
+Mean Absolute Percentage Error (MAPE) is a commonly used metric in time series forecasting and other applications where errors are measured as a percentage of the actual values.
+
+MAPE is calculated as the average of the absolute percentage errors between the predicted values and the actual values. It is expressed as a percentage and provides a measure of the average magnitude of the errors relative to the actual values.
+
+Think of MAPE as a measure of how much better or worse the forecast is than the actual values.
+
 
 
 
