@@ -1,4 +1,4 @@
-# Adease_time_series
+# Adease web traffic time_series forecast
 
 ## Project overview and goals : 
 
