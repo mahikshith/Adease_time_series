@@ -1,10 +1,10 @@
 # Adease_time_series
 
-Project overview and goals : 
+## Project overview and goals : 
 
 The objective of this project is to solve the problem of forecasting future web traffic for approximately 145,000 wikipedia articles in different languages. 
 
-Technical details : 
+## Technical details : 
 
 Each of these time series represent a number of daily views of a different Wikipedia article, starting from July, 1st, 2015 up until December 31st, 2016.
 
@@ -16,7 +16,7 @@ caution :
 
 Unfortunately, the data source for this dataset does not distinguish between traffic values of zero and missing values. A missing value may mean the traffic was zero or that the data is not available for that day.
 
-Why MAPE : 
+## Why MAPE : 
 
 MAPE importance :
 
@@ -53,6 +53,29 @@ MAPE : 0.04233830598310036
 * Simple LR : 
 
 MAPE : 0.044969283321829576	 
+
+we can observe that Hyper-parameterized SARIMAX model gives best MAPE , followed by prophet and  a simple linear regression model.
+
+* Inferences made from the data visualizations:
+
+     * Total 7 languages found in data.
+
+     *  English has the highest number of pages.
+
+     *   3 access types:
+
+         * all-access 51.2295 %
+         * mobile-web 24.7748 %
+         * desktop 23.9958 %
+
+     * 2 access origins:
+
+         * agents 75.932526 %
+         * spider 24.067474 %
+         
+   * English language has the highest pages.
+
+   * Maximum ads should be run on English Pages.
 
 
 
