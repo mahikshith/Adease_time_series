@@ -14,6 +14,8 @@ Each of these time series represent a number of daily views of a different Wikip
 
 caution : 
 
+Data size is huge, breaches 100 MB limit on github free version.
+
 Unfortunately, the data source for this dataset does not distinguish between traffic values of zero and missing values. A missing value may mean the traffic was zero or that the data is not available for that day.
 
 ## Why MAPE : 
