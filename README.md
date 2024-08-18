@@ -26,6 +26,38 @@ MAPE is calculated as the average of the absolute percentage errors between the 
 
 Think of MAPE as a measure of how much better or worse the forecast is than the actual values.
 
+# Results :
+
+* Arima - (1,1,1) # no seasonality
+
+MAPE 0.0669088024208379
+
+* Arima - (2,1,2) # no seasonality
+
+MAPE 0.07418494010841041
+
+* SARIMAX(order=(1,1,1),seasonal_order=(1,1,1,7))
+
+MAPE 0.04940946846240072
+
+* Hyper parameter tuned : 
+
+SARIMAX(order =(1, 1, 1),seasonal_order =(2, 1, 1, 7))
+
+MAPE 0.041895
+
+* PROPHET : 
+
+MAPE : 0.04233830598310036
+
+* Simple LR : 
+
+MAPE : 0.044969283321829576	 
+
+
+
+
+
 
 
 
